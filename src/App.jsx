@@ -53,7 +53,7 @@ function App() {
         </div>
 
         {/* Contact Us Section  */} 
-        <div className='px-8 py-20 text-left text-black'>
+        <div className='px-8 pt-20 text-left text-black'>
           <p className='text-2xl mb-4 font-bold'>Contact Us</p>
           <p className='mb-4'>K Graphics is open to serve you throughout the week. Visit us Monday through Saturday, from 8:00 AM to 4:00 PM, for all your custom car branding needs. We look forward to helping you add a unique touch to your vehicles!</p>
 
@@ -75,8 +75,9 @@ function App() {
 
         </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-3 px-8 py-20 text-left text-black '>
-          <div className='place-content-center'><p className="text-lg font-bold ">Social Media Links</p></div>
+        <div className='px-8 p-8 text-left text-black '>
+          <p className="text-lg font-bold mb-4">Social Media Links</p>
+          <div className='grid gap-6 grid-cols-2 w-fit'>
           <a href='https://www.instagram.com/mr_decals_za/' className='place-self-start'>
           <svg className='w-16' width="58" height="58" viewBox="0 0 198 199" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M197.97 99.5763C197.97 149.468 160.997 190.715 112.968 197.408C108.477 198.031 103.882 198.357 99.2181 198.357C93.8346 198.357 88.5479 197.928 83.3997 197.097C36.3732 189.525 0.459839 148.742 0.459839 99.5763C0.459839 45.019 44.6769 0.78894 99.2112 0.78894C153.746 0.78894 197.97 45.019 197.97 99.5763Z" fill="#1877F2"/>
@@ -101,6 +102,7 @@ function App() {
           </svg>
           <p className="text-sm font-bold py-2">Instagram</p>
           </a>
+          </div>
         </div>
 
     </div>
