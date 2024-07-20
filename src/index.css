@@ -1,4 +1,4 @@
-@tailwind base;
+I@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -32,6 +32,7 @@ body {
   /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
+  background: #080812; 
 }
 
 h1 {
