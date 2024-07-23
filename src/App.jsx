@@ -9,7 +9,7 @@ function App() {
       <div className=''>
         <div className=' text-white py-4 px-8  grid grid-cols-2 justify-between w-full '>
           <div className="w-28
-          "><img src="logo-graphics.png" alt="K Graphics Logo" /></div>
+          "><img src="k-graphics-logo-white.png" alt="K Graphics Logo" /></div>
           <div className="flex justify-end align-middle invisible md:visible">
             <div className="w-28">About Us</div>
             <div className="w-28">Portfolio</div>
@@ -23,7 +23,7 @@ function App() {
             <p className="text-md  text-white">At K Graphics, we specialize in transforming ordinary vehicles into extraordinary showcases of personality and style. Our custom car decals and stickers aren't just decorative; they're a powerful tool for self-expression and branding.</p>
           </div>
           <div>
-          <img src="logo-graphics.png" alt="K Graphics"  className='w-1/2 mx-auto'/>
+          <img src="k-graphics-logo-white.png" alt="K Graphics"  className='w-1/2 mx-auto'/>
           </div>
         </div>
 
