@@ -7,7 +7,7 @@ function App() {
 
   return (
       <div className=''>
-        <div className=' text-black py-4 px-8  grid grid-cols-2 justify-between w-full '>
+        <div className=' text-white py-4 px-8  grid grid-cols-2 justify-between w-full '>
           <div className="w-28
           "><img src="logo-graphics.png" alt="K Graphics Logo" /></div>
           <div className="flex justify-end align-middle invisible md:visible">
@@ -19,8 +19,8 @@ function App() {
         {/* Hero Section  */}
         <div className="hero-section h-fit grid gap-6 grid-cols-1 md:grid-cols-2 md-grid-cols-2 p-8 place-items-center">
           <div>
-            <p className="text-3xl font-bold text-black py-3">Graphics & accessories</p>
-            <p className="text-md  text-black">At K Graphics, we specialize in transforming ordinary vehicles into extraordinary showcases of personality and style. Our custom car decals and stickers aren't just decorative; they're a powerful tool for self-expression and branding.</p>
+            <p className="text-3xl font-bold text-white py-3">Graphics & accessories</p>
+            <p className="text-md  text-white">At K Graphics, we specialize in transforming ordinary vehicles into extraordinary showcases of personality and style. Our custom car decals and stickers aren't just decorative; they're a powerful tool for self-expression and branding.</p>
           </div>
           <div>
           <img src="logo-graphics.png" alt="K Graphics"  className='w-1/2 mx-auto'/>
@@ -28,7 +28,7 @@ function App() {
         </div>
 
         {/* About Us Section  */}
-        <div className='px-8 py-20 text-black mx-auto text-justify'>
+        <div className='px-8 py-20 text-white mx-auto text-justify'>
           <p className='text-2xl mb-4 font-bold '>What We Do</p>
           <p className='mb-8 text-md'>Imagine your vehicle turning heads with unique designs that reflect your individuality or promote your business with striking, professional branding. Our high-quality decals are crafted to withstand the elements, ensuring your message stays vibrant and clear for years to come.
             <br /> <br />
@@ -40,7 +40,7 @@ function App() {
         </div>
 
         {/* Portfolio Section  */}
-        <div className="p-8 text-black">
+        <div className="p-8 text-white">
           <p className="text-2xl mb-8 font-bold text-left ">Portfolio of Work</p>
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2'>
             <img src="img-11.jpg" alt="" className='w-full h-72 object-cover' />
@@ -53,7 +53,7 @@ function App() {
         </div>
 
         {/* Contact Us Section  */} 
-        <div className='px-8 pt-20 text-left text-black'>
+        <div className='px-8 pt-20 text-left text-white'>
           <p className='text-2xl mb-4 font-bold'>Contact Us</p>
           <p className='mb-4'>K Graphics is open to serve you throughout the week. Visit us Monday through Saturday, from 8:00 AM to 4:00 PM, for all your custom car branding needs. We look forward to helping you add a unique touch to your vehicles!</p>
 
@@ -75,7 +75,7 @@ function App() {
 
         </div>
 
-        <div className='px-8 p-8 text-left text-black '>
+        <div className='px-8 p-8 text-left text-white '>
           <p className="text-lg font-bold mb-4">Social Media Links</p>
           <div className='grid gap-6 grid-cols-2 w-fit'>
           <a href='https://www.instagram.com/mr_decals_za/' className='place-self-start'>
